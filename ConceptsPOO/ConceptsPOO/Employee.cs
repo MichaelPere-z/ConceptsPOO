@@ -12,7 +12,7 @@
         public abstract decimal GetValueToPay();
         public override string ToString()
         {
-            return $"{Id} - {FirstName} {LastName}, Birth: {BirthDate}, Hiring: {HiringDate}, Is Active? {IsActive}";
+            return $"{Id} - {FirstName} {LastName}, Birth: {BirthDate}, Hiring: {HiringDate}, Is active? {IsActive}";
         }
     }
 }
